@@ -40,3 +40,7 @@ const numArr = [1, 2, 3, 4, 5, 6];
 const returnAr = numArr.splice(2, 2);
 console.log(numArr);
 console.log(returnAr);
+
+(function add(a, b) {
+  console.log(a + b);
+})(2, 3);
