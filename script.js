@@ -44,3 +44,9 @@ console.log(returnAr);
 (function add(a, b) {
   console.log(a + b);
 })(2, 3);
+
+let uri = 'employeeDetails?name=john&occupation=manager';
+let encoded_uri = encodeURI(uri);
+let decoded_uri = decodeURI(encoded_uri);
+console.log(encoded_uri);
+console.log(decoded_uri);
